@@ -43,7 +43,8 @@ export default function Home() {
 							</p>
 							<div className="flex items-center self-start mt-2 lg:self-center">
 								<Link
-									href={'/hire'}
+									href={'https://wa.link/gzl3vq'}
+									target="_blank"
 									className="flex items-center bg-dark text-light md:p-2 md:px-4 md:text-base dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark mr-2"
 								>
 									Hire Me

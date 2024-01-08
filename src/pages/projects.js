@@ -39,11 +39,11 @@ const FeaturedProject = ({
 					target="_blank"
 					className="hover:underline underline-offset-2"
 				>
-					<h2 className="my-2 w-full text-left text-4xl font-bold sm:text-sm">
+					<h2 className="my-2 w-full dark:text-light text-left text-4xl font-bold sm:text-sm">
 						{title}
 					</h2>
 				</Link>
-				<p className="my-2 font-medium text-dark sm:text-sm">
+				<p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
 					{summary}
 				</p>
 				<div className="mt-2 flex items-center">
@@ -100,18 +100,18 @@ const Project = ({
 					target="_blank"
 					className="hover:underline underline-offset-2"
 				>
-					<h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
+					<h2 className="my-2 w-full text-left dark:text-light text-3xl font-bold lg:text-2xl">
 						{title}
 					</h2>
 				</Link>
-				<p className="my-2 font-medium text-dark">
+				<p className="my-2 font-medium text-dark dark:text-light">
 					{summary}
 				</p>
 				<div className="mt-2 flex items-center justify-between w-full">
 					<Link
 						href={link}
 						target="_blank"
-						className="rounded-lg  text-lg font-semibold underline md:text-base"
+						className="rounded-lg  text-lg dark:text-light font-semibold underline md:text-base"
 					>
 						Visit
 					</Link>
@@ -148,43 +148,45 @@ const projects = () => {
 					<div className="grid grid-cols-12 gap-20 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
 						<div className="col-span-12">
 							<FeaturedProject
-								title={'Legacy Atelier'}
-								type={'Web Application'}
+								title={'Campus Mate'}
+								type={'Mobile Application'}
 								summary={
-									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
+									'Mobile app for organizing schedules, collaborating with peers, accessing study materials, and managing tasks all in one place. Built using React Native, Tailwind CSS, Node.js and MongoDB.'
 								}
-								img={'/images/projects/legacy-atelier.png'}
-								link={'https://www.legacyatelier.com.ng/'}
+								img={'/images/projects/campusmate.png'}
+								link={
+									'https://drive.google.com/file/d/16ZjySH1q7xHTPH9UucNil3c_SQXwPKXP/view?usp=drivesdk'
+								}
 								github={
-									'https://github.com/emmanuelandyeze/ekoatelier'
+									'https://github.com/emmanuelandyeze/campusmate-server'
 								}
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title={'Legacy Atelier'}
+								title={'The Strides'}
 								type={'Web Application'}
 								summary={
-									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
+									'A community-based social media platform to foster learning and growth. Built using Next.js, Tailwind CSS and MongoDB.'
 								}
-								img={'/images/projects/legacy-atelier.png'}
-								link={'https://www.legacyatelier.com.ng/'}
+								img={'/images/projects/strides.png'}
+								link={'https://www.thestrides.com.ng/'}
 								github={
-									'https://github.com/emmanuelandyeze/ekoatelier'
+									'https://github.com/emmanuelandyeze/thestrides'
 								}
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title={'Legacy Atelier'}
-								type={'Web Application'}
+								title={'HT Legal Advisory'}
+								type={'Website'}
 								summary={
-									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
+									'A Law Agency Website built for HTLEGAL. Built using React.js'
 								}
-								img={'/images/projects/legacy-atelier.png'}
-								link={'https://www.legacyatelier.com.ng/'}
+								img={'/images/projects/htlegal.png'}
+								link={'https://www.htlegal.com.ng/'}
 								github={
-									'https://github.com/emmanuelandyeze/ekoatelier'
+									'https://github.com/emmanuelandyeze/htlegal'
 								}
 							/>
 						</div>
@@ -204,29 +206,34 @@ const projects = () => {
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title={'Legacy Atelier'}
-								type={'Web Application'}
+								title={'Oneshop Store'}
+								type={'Mobile Application'}
 								summary={
-									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
+									'An e-commerce mobile app for purchasing Health Supplements. Built using React Native, Tailwind CSS and MongoDB.'
 								}
-								img={'/images/projects/legacy-atelier.png'}
-								link={'https://www.legacyatelier.com.ng/'}
+								img={'/images/projects/oneshopstore.png'}
+								link={
+									'https://play.google.com/store/apps/details?id=com.oneshop_store&hl=en_US&gl=US'
+								}
 								github={
-									'https://github.com/emmanuelandyeze/ekoatelier'
+									'https://github.com/emmanuelandyeze/oneshop_store'
 								}
 							/>
 						</div>
+
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title={'Legacy Atelier'}
-								type={'Web Application'}
+								title={'Oneshop Vendor'}
+								type={'Mobile Application'}
 								summary={
-									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
+									'An e-commerce mobile app for vendors of Health Supplements. Built using React Native, Tailwind CSS and MongoDB.'
 								}
-								img={'/images/projects/legacy-atelier.png'}
-								link={'https://www.legacyatelier.com.ng/'}
+								img={'/images/projects/oneshopvendor.png'}
+								link={
+									'https://play.google.com/store/apps/details?id=com.oneshop_vendor&hl=en_US&gl=US'
+								}
 								github={
-									'https://github.com/emmanuelandyeze/ekoatelier'
+									'https://github.com/emmanuelandyeze/oneshop_vendor'
 								}
 							/>
 						</div>
