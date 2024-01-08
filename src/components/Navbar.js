@@ -117,7 +117,6 @@ const Navbar = () => {
 						title="Projects"
 						className="mx-4"
 					/>
-					
 				</nav>
 
 				<nav className="flex items-center justify-center flex-wrap">
@@ -160,7 +159,7 @@ const Navbar = () => {
 					</motion.a>
 
 					<motion.a
-						href={'https://wa.me/2349165095973'}
+						href={'https://wa.link/gzl3vq'}
 						target="_blank"
 						whileHover={{
 							y: -2,
@@ -258,7 +257,7 @@ const Navbar = () => {
 							<GithubIcon />
 						</motion.a>
 						<motion.a
-							href={'https://wa.me/2349165095973'}
+							href={'https://wa.link/gzl3vq'}
 							target="_blank"
 							whileHover={{
 								y: -2,
@@ -290,7 +289,7 @@ const Navbar = () => {
 
 			<div className="flex-col justify-center items-center hidden lg:flex">
 				<Link
-					href={'/hire'}
+					href={'https://wa.link/gzl3vq'}
 					className="flex items-center sm:mr-0 bg-dark text-light md:p-2 md:px-4 md:text-base dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark mr-0"
 				>
 					Hire Me
