@@ -190,22 +190,20 @@ const projects = () => {
 						</div>
 						<div className="col-span-12">
 							<FeaturedProject
-								title={'Campus Mate'}
-								type={'Mobile Application'}
+								title={'HT Legal Advisory'}
+								type={'Website'}
 								summary={
-									'Mobile app for organizing schedules, collaborating with peers, accessing study materials, and managing tasks all in one place. Built using React Native, Tailwind CSS, Node.js and MongoDB.'
+									'A Law Agency Website built for HTLEGAL. Built using React.js'
 								}
-								img={'/images/projects/campusmate.png'}
-								link={
-									'https://drive.google.com/file/d/16ZjySH1q7xHTPH9UucNil3c_SQXwPKXP/view?usp=drivesdk'
-								}
+								img={'/images/projects/htlegal.png'}
+								link={'https://www.htlegal.com.ng/'}
 								github={
-									'https://github.com/emmanuelandyeze/campusmate-server'
+									'https://github.com/emmanuelandyeze/htlegal'
 								}
 							/>
 						</div>
-						<div className="col-span-6 sm:col-span-12">
-							<Project
+						<div className="col-span-12">
+							<FeaturedProject
 								title={'The Strides'}
 								type={'Web Application'}
 								summary={
@@ -218,18 +216,19 @@ const projects = () => {
 								}
 							/>
 						</div>
-
-						<div className="col-span-12">
-							<FeaturedProject
-								title={'HT Legal Advisory'}
-								type={'Website'}
+						<div className="col-span-6 sm:col-span-12">
+							<Project
+								title={'Campus Mate'}
+								type={'Mobile Application'}
 								summary={
-									'A Law Agency Website built for HTLEGAL. Built using React.js'
+									'Mobile app for organizing schedules, collaborating with peers, accessing study materials, and managing tasks all in one place. Built using React Native, Tailwind CSS, Node.js and MongoDB.'
 								}
-								img={'/images/projects/htlegal.png'}
-								link={'https://www.htlegal.com.ng/'}
+								img={'/images/projects/campusmate.png'}
+								link={
+									'https://drive.google.com/file/d/16ZjySH1q7xHTPH9UucNil3c_SQXwPKXP/view?usp=drivesdk'
+								}
 								github={
-									'https://github.com/emmanuelandyeze/htlegal'
+									'https://github.com/emmanuelandyeze/campusmate-server'
 								}
 							/>
 						</div>
@@ -250,7 +249,7 @@ const projects = () => {
 							/>
 						</div>
 
-						<div className="col-span-6 sm:col-span-12">
+						{/* <div className="col-span-6 sm:col-span-12">
 							<Project
 								title={'Oneshop Vendor'}
 								type={'Mobile Application'}
@@ -265,7 +264,7 @@ const projects = () => {
 									'https://github.com/emmanuelandyeze/oneshop_vendor'
 								}
 							/>
-						</div>
+						</div> */}
 					</div>
 				</Layout>
 			</main>
