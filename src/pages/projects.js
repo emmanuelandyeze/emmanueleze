@@ -148,6 +148,48 @@ const projects = () => {
 					<div className="grid grid-cols-12 gap-20 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
 						<div className="col-span-12">
 							<FeaturedProject
+								title={'Legacy Atelier'}
+								type={'Web Application'}
+								summary={
+									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
+								}
+								img={'/images/projects/legacyatelier.png'}
+								link={'https://www.legacyatelier.com.ng/'}
+								github={
+									'https://github.com/emmanuelandyeze/ekoatelier'
+								}
+							/>
+						</div>
+						<div className="col-span-6 sm:col-span-12">
+							<Project
+								title={'AuditMe'}
+								type={'Web Application'}
+								summary={
+									'A Finance application to stream line financial auditing processes. Built using Next.js, Tailwind CSS and MongoDB.'
+								}
+								img={'/images/projects/auditme.png'}
+								link={'https://auditme.com.ng/'}
+								github={
+									'https://github.com/emmanuelandyeze/auditme-web'
+								}
+							/>
+						</div>
+						<div className="col-span-6 sm:col-span-12">
+							<Project
+								title={'Pepcode'}
+								type={'Web Application'}
+								summary={
+									'A Finance web application that enables businesses to automate sales records, record purchases, manage inventory, handle point of sales, and access analytics. Built using Next.js, Tailwind CSS and MongoDB.'
+								}
+								img={'/images/projects/pepcode.png'}
+								link={'https://www.pepcodeinc.com/'}
+								github={
+									'https://github.com/emmanuelandyeze/pepcode-user'
+								}
+							/>
+						</div>
+						<div className="col-span-12">
+							<FeaturedProject
 								title={'Campus Mate'}
 								type={'Mobile Application'}
 								summary={
@@ -170,14 +212,15 @@ const projects = () => {
 									'A community-based social media platform to foster learning and growth. Built using Next.js, Tailwind CSS and MongoDB.'
 								}
 								img={'/images/projects/strides.png'}
-								link={'https://www.thestrides.com.ng/'}
+								link={'https://thestrides.vercel.app/'}
 								github={
 									'https://github.com/emmanuelandyeze/thestrides'
 								}
 							/>
 						</div>
-						<div className="col-span-6 sm:col-span-12">
-							<Project
+
+						<div className="col-span-12">
+							<FeaturedProject
 								title={'HT Legal Advisory'}
 								type={'Website'}
 								summary={
@@ -187,20 +230,6 @@ const projects = () => {
 								link={'https://www.htlegal.com.ng/'}
 								github={
 									'https://github.com/emmanuelandyeze/htlegal'
-								}
-							/>
-						</div>
-						<div className="col-span-12">
-							<FeaturedProject
-								title={'Legacy Atelier'}
-								type={'Web Application'}
-								summary={
-									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
-								}
-								img={'/images/projects/legacy-atelier.png'}
-								link={'https://www.legacyatelier.com.ng/'}
-								github={
-									'https://github.com/emmanuelandyeze/ekoatelier'
 								}
 							/>
 						</div>
