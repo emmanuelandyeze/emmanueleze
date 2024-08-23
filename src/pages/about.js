@@ -55,16 +55,17 @@ const about = () => {
 								</p>
 								<br />
 								<p>
-									Whether it is bringing a stunning design to
-									life or optimizing functionality, I am
+									Whether it is bringing a stunning design
+									to life or optimizing functionality, I am
 									dedicated to delivering top-notch results
 									that exceed expectations. Explore my
-									showcased projects below and see how I have
-									tackled challenges, leveraged cutting-edge
-									technologies, and brought visions to life.
-									Feel free to reach out, I am always up for a
-									new coding adventure or collaboration!
-									Let us build something amazing together.
+									showcased projects below and see how I
+									have tackled challenges, leveraged
+									cutting-edge technologies, and brought
+									visions to life. Feel free to reach out, I
+									am always up for a new coding adventure or
+									collaboration! Let us build something
+									amazing together.
 								</p>
 								<br />
 
@@ -84,7 +85,7 @@ const about = () => {
 									</div>
 									<div className="flex flex-col items-center justify-center">
 										<span className="inline-block text-7xl sm:text-3xl font-bold">
-											10+
+											15+
 										</span>
 										<h2 className="text-xl font-medium capitalize sm:text-base sm:text-center text-dark/75 dark:text-light/75">
 											satisfied clients
@@ -92,7 +93,7 @@ const about = () => {
 									</div>
 									<div className="flex flex-col items-center justify-center">
 										<span className="inline-block text-7xl sm:text-3xl font-bold">
-											4+
+											5+
 										</span>
 										<h2 className="text-xl font-medium capitalize sm:text-base sm:text-center text-dark/75 dark:text-light/75">
 											years of experience
@@ -101,7 +102,7 @@ const about = () => {
 								</div>
 								<div className="flex sm:mx-auto items-center pt-8 self-center mt-2 lg:self-center sm:self-center">
 									<Link
-										href={'/hire'}
+										href={'https://wa.me/2349165095973'}
 										className="flex items-center bg-dark text-light md:p-2 md:px-4 md:text-base dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark mr-2"
 									>
 										Hire
