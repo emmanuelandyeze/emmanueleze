@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
-				<link rel="icon" href="/images/profile/emmanuel.png" />
+				<link rel="icon" href="/images/mypic.png" />
 			</Head>
 
 			<main
