@@ -2,10 +2,10 @@ import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import Layout from '@/components/Layout';
 import Image from 'next/image';
-import ProfilePic from '../../public/images/0S2A0860.jpg';
+import ProfilePic from '../../public/images/mypic.png';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
-import profilePic from '../../public/images/0S2A0860.jpg';
+import profilePic from '../../public/images/mypic.png';
 
 const inter = Inter({ subsets: ['latin'] });
 
