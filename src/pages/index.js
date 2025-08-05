@@ -1,9 +1,13 @@
 import Head from 'next/head';
 import Layout from '@/components/Layout';
+import Image from 'next/image';
+import ProfilePic from '../../public/images/mypic.png';
+import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 // Import the new typing component
 import AnimatedTypingText from '@/components/AnimatedTypingText';
 import { Poppins } from 'next/font/google';
+import profilePic from '../../public/images/mypic.png';
 
 const poppins = Poppins({
 	subsets: ['latin'],
