@@ -69,9 +69,9 @@ const About = () => {
 								passionate full-stack developer specializing
 								in crafting dynamic and innovative websites
 								and mobile applications. With a focus on
-								**React, Next.js, React Native, and
-								Node.js**, I bring creativity and technical
-								expertise together to build seamless digital
+								React, Next.js, React Native, and Node.js, I
+								bring creativity and technical expertise
+								together to build seamless digital
 								experiences. I thrive on turning ideas into
 								reality and love diving into the intricacies
 								of code to create user-friendly,
