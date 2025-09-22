@@ -151,7 +151,7 @@ const projects = () => {
 								title={'Legacy Atelier'}
 								type={'Web Application'}
 								summary={
-									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS and Shopify.'
+									'An e-commerce web app for a local arts and crafts shop. Built using Next.js, Tailwind CSS, Shopify and Node.js (Frontend & Backend).'
 								}
 								img={'/images/projects/legacyatelier.png'}
 								link={'https://www.legacyatelier.com.ng/'}
@@ -165,7 +165,7 @@ const projects = () => {
 								title={'AuditMe'}
 								type={'Web Application'}
 								summary={
-									'A Finance application to stream line financial auditing processes. Built using Next.js, Tailwind CSS and MongoDB.'
+									'A Finance application to stream line financial auditing processes. Built using Next.js, Tailwind CSS and Node.js (Frontend & Backend).'
 								}
 								img={'/images/projects/auditme.png'}
 								link={'https://auditme.com.ng/'}
@@ -179,7 +179,7 @@ const projects = () => {
 								title={'Pepcode'}
 								type={'Web Application'}
 								summary={
-									'A Finance web application that enables businesses to automate sales records, record purchases, manage inventory, handle point of sales, and access analytics. Built using Next.js, Tailwind CSS and MongoDB.'
+									'A Finance web application that enables businesses to automate sales records, record purchases, manage inventory, handle point of sales, and access analytics. Built using Next.js, Tailwind CSS and Nest.js (Frontend & Backend).'
 								}
 								img={'/images/projects/pepcode.png'}
 								link={'https://www.pepcodeinc.com/'}
@@ -193,7 +193,7 @@ const projects = () => {
 								title={'HT Legal Advisory'}
 								type={'Website'}
 								summary={
-									'A Law Agency Website built for HTLEGAL. Built using React.js'
+									'A Law Agency Website built for HTLEGAL. Built using React.js (Next.js)'
 								}
 								img={'/images/projects/htlegal.png'}
 								link={'https://www.htlegal.com.ng/'}
@@ -207,7 +207,7 @@ const projects = () => {
 								title={'The Strides'}
 								type={'Web Application'}
 								summary={
-									'A community-based social media platform to foster learning and growth. Built using Next.js, Tailwind CSS and MongoDB.'
+									'A community-based social media platform to foster learning and growth. Built using Next.js, Tailwind CSS, Node.js and MongoDB (Frontend & Backend).'
 								}
 								img={'/images/projects/strides.png'}
 								link={'https://thestrides.vercel.app/'}
@@ -221,7 +221,7 @@ const projects = () => {
 								title={'Campus Mate'}
 								type={'Mobile Application'}
 								summary={
-									'Mobile app for organizing schedules, collaborating with peers, accessing study materials, and managing tasks all in one place. Built using React Native, Tailwind CSS, Node.js and MongoDB.'
+									'Mobile app for organizing schedules, collaborating with peers, accessing study materials, and managing tasks all in one place. Built using React Native, Tailwind CSS, Node.js and MongoDB (Frontend & Backend).'
 								}
 								img={'/images/projects/campusmate.png'}
 								link={
@@ -237,7 +237,7 @@ const projects = () => {
 								title={'Oneshop Store'}
 								type={'Mobile Application'}
 								summary={
-									'An e-commerce mobile app for purchasing Health Supplements. Built using React Native, Tailwind CSS and MongoDB.'
+									'An e-commerce mobile app for purchasing Health Supplements. Built using React Native, Tailwind CSS and Node.js.'
 								}
 								img={'/images/projects/oneshopstore.png'}
 								link={
